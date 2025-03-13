@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.UrovoSDK", "Binding.UrovoSDK\Binding.UrovoSDK.csproj", "{C937E6B3-E3E2-4D9F-AD96-177B3D01A9ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication", "AvaloniaApplication\AvaloniaApplication.csproj", "{1F89B404-A94A-4C40-A558-9DBE2622578E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication.Android", "AvaloniaApplication.Android\AvaloniaApplication.Android.csproj", "{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication.Desktop", "AvaloniaApplication.Desktop\AvaloniaApplication.Desktop.csproj", "{AC5F7647-1634-4AB9-9597-FE134C06F185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,20 @@ Global
 		{C937E6B3-E3E2-4D9F-AD96-177B3D01A9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C937E6B3-E3E2-4D9F-AD96-177B3D01A9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C937E6B3-E3E2-4D9F-AD96-177B3D01A9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F89B404-A94A-4C40-A558-9DBE2622578E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F89B404-A94A-4C40-A558-9DBE2622578E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F89B404-A94A-4C40-A558-9DBE2622578E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F89B404-A94A-4C40-A558-9DBE2622578E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BBC7C7-CCC6-49BE-BB53-CF4D6F64DAA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AC5F7647-1634-4AB9-9597-FE134C06F185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5F7647-1634-4AB9-9597-FE134C06F185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5F7647-1634-4AB9-9597-FE134C06F185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5F7647-1634-4AB9-9597-FE134C06F185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
