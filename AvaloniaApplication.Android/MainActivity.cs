@@ -11,7 +11,7 @@ using Common;
 namespace AvaloniaApplication.Android;
 
 [Activity(
-    Label = "AvaloniaApplication.Android",
+    Label = "Urovo SDK Tester",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,
