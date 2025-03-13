@@ -25,5 +25,6 @@
   <ItemGroup>
     <ProjectReference Include="..\AvaloniaApplication\AvaloniaApplication.csproj" />
     <ProjectReference Include="..\Binding.UrovoSDK\Binding.UrovoSDK.csproj" />
+    <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 </Project>
