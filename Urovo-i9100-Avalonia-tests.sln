@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Urovo.SDKWrapper", "Binding.Urovo.SDKWrapper\Binding.Urovo.SDKWrapper.csproj", "{338249D0-FF1F-4434-9B8A-CC0CAEFDE8BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.UrovoSDK2", "Binding.UrovoSDK2\Binding.UrovoSDK2.csproj", "{1AC5C157-B7A5-44BB-8E51-89EED32B650B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{338249D0-FF1F-4434-9B8A-CC0CAEFDE8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{338249D0-FF1F-4434-9B8A-CC0CAEFDE8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338249D0-FF1F-4434-9B8A-CC0CAEFDE8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC5C157-B7A5-44BB-8E51-89EED32B650B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC5C157-B7A5-44BB-8E51-89EED32B650B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC5C157-B7A5-44BB-8E51-89EED32B650B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC5C157-B7A5-44BB-8E51-89EED32B650B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
