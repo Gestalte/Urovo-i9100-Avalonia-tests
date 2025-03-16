@@ -6,4 +6,15 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageDeleteObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="managedOverride">override</attr>
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageDeleteObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="visibility">protected</attr>
+
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageInstallObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="managedOverride">override</attr>
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageInstallObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="visibility">protected</attr>
+
+	<attr path="/api/package[@name='android.os']/class[@name='IInputActionListener.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="managedOverride">override</attr>
+	<attr path="/api/package[@name='android.os']/class[@name='IInputActionListener.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="visibility">protected</attr>
+
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageInstallObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="managedOverride">override</attr>
+	<attr path="/api/package[@name='android.content.pm']/class[@name='IPackageInstallObserver.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" name="visibility">protected</attr>
 </metadata>
